@@ -1,0 +1,186 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: serif;
+}
+html{
+	font-size: 65%;
+}
+#video1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+}
+#qutu1{
+	width: 100%;
+	height: 5rem;
+	background: rgb(26, 38, 92);
+}
+#img1{
+	border-radius: 1rem;
+	position: relative;
+	top: 5rem;
+	width: 70%;
+	margin-left: 10rem;
+	box-shadow: 1px -1px 5px 5px lightgray;
+}
+#qutu2{
+	display: flex;
+}
+#qutu2 ul{
+	margin-top: 12rem;
+	margin-left: 20rem;
+}
+#qutu2 ul li{
+	list-style: none;
+	float: left;
+	margin-left: 1rem;
+	margin-right: 2rem;
+}
+#qutu2 ul li a{
+	text-decoration: none;
+	padding: .8rem 1.8rem;
+	color: rgb(26, 38, 92);
+	font-size: 3rem;
+}
+#qutu2 ul li a:hover {
+	border-bottom: 2px solid rgb(26, 38, 92);
+	background: gray;
+	transition: 2.5s;
+}
+#qutu2 ul li ul {
+	margin: 2rem;
+	display: none;
+}
+#qutu2 ul li:hover ul {
+	display: block;
+}
+#qutu2 ul li ul li a{
+    text-decoration: none;
+	color: rgb(26, 38, 92);
+	font-size: 2rem;
+	padding: 1rem 1.5rem;
+}
+#qutu2 ul li ul li a: hover{
+	border-bottom: 2px solid rgb(26, 38, 92);
+}
+#qutu3{
+	text-align: center;
+	position: absolute;
+	top: 15rem;
+	display: none;
+	width: 80%;
+	min-height: 65vh;
+	margin-left: 10%;
+	margin-right: 10%;
+	background: white;
+	border-radius: 5rem;
+	box-shadow: 5px 5px 5px 5px gray;
+	z-index: 3;
+}
+#qutu3 i{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	font-size: 4rem;
+	cursor: pointer;
+}
+#qutu3 form{
+	padding-top: 1rem;
+}
+#qutu3 form .proses{
+	width: 80%;
+	margin: 2rem;
+	padding: 2rem 4rem;
+}
+#qutu3 form input::placeholder{
+	font-size: 1.5rem;
+}
+#qutu4{
+	padding-top: 1.5rem;
+	text-align: center;
+	position: absolute;
+	top: 45rem;
+	left: 92rem;
+	background: rgba(0, 0, 0, .7);
+	width: 30rem;
+	height: 10rem;
+	color: white;
+}
+#qutu4 span{
+	font-size: 4rem;
+	color: red;
+}
+.span{
+	position: absolute;
+	display: none;
+}
+
+
+@media(max-width: 1200px){
+	#qutu4{
+	    top: 45rem;
+	    left: 70%;
+    }
+}
+
+@media(max-width: 1000px){
+	#qutu4{
+	    top: 45rem;
+	    left: 60%;
+    }
+}
+
+@media(max-width: 750px){
+	#qutu4{	    
+		top: 45rem;
+	    left: 40%;
+    }
+}
+
+
+@media (max-width: 550px){
+	#img1{
+	    top: 2rem;
+	    width: 95%;
+	    margin-left: 1rem;
+    }
+    #qutu2 ul{
+    	z-index: 2;
+	    margin-top: 5rem;
+	    margin-left: 4rem;
+    }
+    #qutu2 ul li{
+	    margin-left: 1rem;
+	    margin-right: 2rem;
+    }
+    #qutu2 ul li a{
+	    font-size: 2rem;
+    }
+    #qutu2 ul li:hover {
+    	padding: 1rem;
+	    background: rgba(250, 250, 250, 0.8);
+    }
+    #qutu3{
+    	min-height: 45vh;
+    	border-radius: 5px;
+	    box-shadow: 2px 2px 2px 2px gray;
+    }
+    #qutu3 form .proses{
+	    margin: 1rem;
+	    padding: 1.5rem 3rem;
+    }
+    #qutu4{
+	    top: 26.5rem;
+	    left: 4rem;
+	    width: 80%;
+    }
+}
+
+@media (max-width: 350px){
+    #qutu2 ul{
+	    margin-left: .5rem;
+    }

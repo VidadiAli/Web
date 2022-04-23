@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Qrup_melumat.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.js">
+	<title>Materiallar</title>
+</head>
+<body>
+    <div id="divv1">
+    	<ul>
+    		<li><a href="#" id="ilk1">Videolar</a>
+    			<ul>
+    				<li><a href="#" id="a1">Qrafik və Veb Dizayn</a></li>
+    				<li><a href="#" id="a2">Verilənlər Bazasının İdarəetmə Sistemləri</a></li>
+    				<li><a href="#" id="a3">Proqramlaşdırma Metodları və Prosesləri</a></li>
+    				<li><a href="#" id="a4">Proqramlaşdıma üçün Riyaziyyat</a></li>
+    			</ul></li>
+            <li><a href="#" id="ilk2">Materiallar(PDF)</a>
+            <ul>
+    				<li><a href="#" id="a5">Qrafik və Veb Dizayn</a></li>
+    				<li><a href="#" id="a6">Verilənlər Bazasının İdarəetmə Sistemləri</a></li>
+    				<li><a href="#" id="a7">Proqramlaşdırma Metodları və Prosesləri</a></li>
+    				<li><a href="#" id="a8">Proqramlaşdıma üçün Riyaziyyat</a></li>
+    			</ul></li>
+            <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Məlumatlar</a></li>
+    	</ul>
+    </div>
+
+    <div id="divv2">
+
+<!---------------------------------------------------------Videos----------------------------------------------------->
+
+      <section id="section1">
+    	<video src="veb1.mp4" controls autoplay></video>
+    	<video src="veb2.mp4" controls autoplay></video>
+      </section>
+
+      <section id="section2">
+      	<h1>Hələ ki, Video Yoxdur</h1>
+      </section>
+
+      <section id="section3">
+      	<h1>Hələ ki, Video Yoxdur</h1>
+      </section>
+
+      <section id="section4">
+      	<h1>Hələ ki, Video Yoxdur</h1>
+      </section>
+
+
+<!---------------------------------------------------------PDF----------------------------------------------------->
+
+      <section id="section5">
+      	<a href="Qrafik_dizayn1.pdf">Qrafik və Veb Dizayn 1 - PDF - Endir və Oxu</a><br>
+      	<a href="Qrafik_dizayn2.pdf">Qrafik və Veb Dizayn 2 - PDF - Endir və Oxu</a><br>
+      </section>
+        
+      <section id="section6">
+      	<a href="Verilənlər_Bazasının_İdarəetmə_Sistemləri_Peşə.pptx">Verilənlər Bazası 1 - PDF - Endir və Oxu</a><br>
+      	<a href="Verilənlər_bazası2.pdf">Verilənlər Bazası 2 - PDF - Endir və Oxu</a><br>
+      </section>
+
+      <section id="section7">
+      	<a href="Method1.pdf">Proqramlaşdırma Metodları 1 - PDF - Endir və Oxu</a><br>
+      	<a href="Method2.pdf">Proqramlaşdırma Metodları 2 - PDF - Endir və Oxu</a><br>
+      </section>
+
+      <section id="section8">
+      	<a href="Riyaziyyat1.pdf">Proqramlaşdırma üçün Riyaziyyat 1 - PDF - Endir və Oxu</a><br>
+      	<a href="Riyaziyyat2.pdf">Proqramlaşdırma üçün Riyaziyyat 2 - PDF - Endir və Oxu</a><br>
+      </section>
+
+    </div>
+
+    
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1><a>27 Aprel:</a> <span>Aralıq İmtahan 2</span></h1>
+        <h1><a>15 May:</a> <span>Fərdi İşlərin Son Günü</span></h1>
+        <h1><a>20-25 May:</a> <span>Aralqı İmtahan 3</span></h1>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    <script src="bootstrap.js"></script>
+    <script type="text/javascript">
+    	a1.onclick=function() {
+    		section1.style.display="block";
+    		section2.style.display="none";
+    		section3.style.display="none";
+    		section4.style.display="none";
+    		section5.style.display="none";
+    		section6.style.display="none";
+    		section7.style.display="none";
+    		section8.style.display="none";
+    	}
+    	a2.onclick=function() {
+    		section1.style.display="none";
+    		section2.style.display="block";
+    		section3.style.display="none";
+    		section4.style.display="none";
+    		section5.style.display="none";
+    		section6.style.display="none";
+    		section7.style.display="none";
+    		section8.style.display="none";
+    	}
+    	a3.onclick=function() {
+    		section1.style.display="none";
+    		section2.style.display="none";
+    		section3.style.display="block";
+    		section4.style.display="none";
+    		section5.style.display="none";
+    		section6.style.display="none";
+    		section7.style.display="none";
+    		section8.style.display="none";
+    	}
+    	a4.onclick=function() {
+    		section1.style.display="none";
+    		section2.style.display="none";
+    		section3.style.display="none";
+    		section4.style.display="block";
+    		section5.style.display="none";
+    		section6.style.display="none";
+    		section7.style.display="none";
+    		section8.style.display="none";
+    	}
+    	a5.onclick=function() {
+    		section1.style.display="none";
+    		section2.style.display="none";
+    		section3.style.display="none";
+    		section4.style.display="none";
+    		section5.style.display="block";
+    		section6.style.display="none";
+    		section7.style.display="none";
+    		section8.style.display="none";
+    	}
+    	a6.onclick=function() {
+    		section1.style.display="none";
+    		section2.style.display="none";
+    		section3.style.display="none";
+    		section4.style.display="none";
+    		section5.style.display="none";
+    		section6.style.display="block";
+    		section7.style.display="none";
+    		section8.style.display="none";
+    	}
+    	a7.onclick=function() {
+    		section1.style.display="none";
+    		section2.style.display="none";
+    		section3.style.display="none";
+    		section4.style.display="none";
+    		section5.style.display="none";
+    		section6.style.display="none";
+    		section7.style.display="block";
+    		section8.style.display="none";
+    	}
+    	a8.onclick=function() {
+    		section1.style.display="none";
+    		section2.style.display="none";
+    		section3.style.display="none";
+    		section4.style.display="none";
+    		section5.style.display="none";
+    		section6.style.display="none";
+    		section7.style.display="none";
+    		section8.style.display="block";
+    	}
+        
+        
+    </script>
+</body>
+</html>

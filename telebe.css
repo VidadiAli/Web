@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: serif;
+}
+html{
+	font-size: 65%;
+}
+body{
+	background: url("back_photo.png");
+}
+.div{
+	margin: 5rem;
+}
+.div p button{
+	border: none;
+	width: 60%;
+	padding: 1rem;
+	font-size: 2rem;
+	color: wheat;
+}
+.btn1{
+   background: linear-gradient(to right, rgb(26, 30, 92), rgb(50, 120, 190));	
+}
+.btn1:hover{
+   background: linear-gradient(to right, rgb(26, 80, 92), rgb(100, 180, 240));	
+}
+.card{
+	width: 50%;
+}
+.card li{
+	color: white;
+	list-style: none;
+	width: 80%;
+	margin: 1rem 3rem;
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	background: linear-gradient(to right, rgb(26, 30, 92), rgb(50, 120, 190));
+}
+.card li .span1{
+	display: inline-block;
+	width: 18rem;
+}
+.card li .span2{
+	color: blue;
+	font-size: 1.2rem;
+	padding: 0.5rem 4rem;
+	background: linear-gradient(to right, deepskyblue, lightskyblue);
+}
+
+@media (max-width: 800px){
+	.span2{
+		margin-left: 20rem;
+	}
+	.div{
+		margin: 1rem;
+		width: 100%;
+	}
+	.card{
+		width: 90%;
+	}
+	.card li{
+		width: 95%;
+		margin: 1rem 0.5rem;
+	}
+	.div p button{
+		width: 90%;
+	}
+	.card li .span1{
+	   width: 10rem;
+   }
+}
+
+@media(max-width: 550px){
+	.span2{
+		margin-left: 10rem;
+	}
+}
+
+@media(max-width: 415px){
+	.span2{
+		margin-left: 5rem;
+	}
+}
+
+@media(max-width: 365px){
+	.span2{
+		margin-left: 1rem;
+	}
+}
