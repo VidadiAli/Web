@@ -203,6 +203,9 @@ html{
 	    margin: 1rem;
 	    display: none;
     }
+    #qutu2 ul li ul{
+	    padding: .2rem .6rem;
+    }
     #qutu3{
     	min-height: 45vh;
     	border-radius: 5px;
@@ -233,7 +236,7 @@ html{
 	    font-size: 1.5rem;
     }
 }
-@media (max-width: 360px){
+@media (max-width: 350px){
     #qutu2 ul{
 	 margin-left: .5rem;
    }
