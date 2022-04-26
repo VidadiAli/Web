@@ -203,6 +203,7 @@ html{
 	 margin-left: .5rem;
    }
     #qutu2 ul li ul{
-	 margin-right: 0.5rem;
+	    margin: .2rem .5rem;
+	    padding: .2rem .6rem;
     }
 }
