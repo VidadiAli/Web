@@ -150,7 +150,7 @@ html{
     }
     #qutu2 ul{
     	z-index: 2;
-	    margin-top: 5rem;
+	    margin-top: 7rem;
 	    margin-left: 4rem;
     }
     #qutu2 ul li{
@@ -163,6 +163,10 @@ html{
     #qutu2 ul li:hover {
     	padding: 1rem;
 	    background: rgba(250, 250, 250, 0.8);
+    }
+    #qutu2 ul li ul {
+	    margin: 1rem;
+	    display: none;
     }
     #qutu3{
     	min-height: 45vh;
@@ -179,8 +183,26 @@ html{
 	    width: 80%;
     }
 }
-
+@media (max-width: 440px){
+	#qutu2 ul{
+	    margin-left: 2rem;
+    }
+    #qutu2 ul li{
+	    margin-left: .5rem;
+	    margin-right: 1rem;
+    }
+    #qutu2 ul li a{
+	    font-size: 1.85rem;
+    }
+    #qutu2 ul li ul li a{
+	    font-size: 1.5rem;
+    }
+}
 @media (max-width: 350px){
     #qutu2 ul{
-	    margin-left: .5rem;
+	 margin-left: .5rem;
+   }
+    #qutu2 ul li ul{
+	 margin-right: 0.5rem;
     }
+}
