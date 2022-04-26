@@ -39,7 +39,12 @@
     <h1>Aralıq İmtahan 2: <br><span>27 Aprel</span></h1>
 </div>
 
-
+<div id="back">
+    <i class="fa-solid fa-square-xmark" id="i2"></i>
+    <h1>27 Aprel Aralıq İmtahan 2<br>Fərdi işlərin son günü: 15 May</h1>
+    <h3><span>2 İyun:</span> Verilənlər Bazasının İdarəetmə Sistemləri - 10:00<br><span>6 İyun:</span> Xarici dildə işgüzarlıq - 10:00<br><span>10 İyun:</span> Proqramlaşdırma üçün Riyaziyyat - 10:00<br><span>13 İyun:</span> İnformasiya Texnologiyaları - 10:00<br><span>16 İyun:</span> Texniki Hesab - 10:00<br><span>20 İyun:</span> Qrafik və Veb dizaynın Əsasları - 10:00<br><span>25 İyun:</span> Proqramlaşdırma Metodları və Prosesləri - 10:00</h3>
+</div>
+   
 <span class="span" id="Us">Ayten</span>
 <span class="span" id="Pa">ayten_03</span>
 
@@ -454,6 +459,9 @@
     }
     i1.onclick=function() {
         qutu3.style.display="none";
+    }
+    i2.onclick=function() {
+        back.style.zIndex=-2;
     }
     send.onclick=function() {
         if(user.value==U_14.textContent && pass.value==P_14.textContent){
