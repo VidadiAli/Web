@@ -29,7 +29,8 @@ html{
 }
 #back h1{
 	margin: 5rem;
-	margin-top: 8rem;
+	margin-top: 30rem;
+	transition: 2s;
 }
 #back h3{
 	margin-left: auto;
