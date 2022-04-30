@@ -28,7 +28,7 @@ html{
 	color: white;
 }
 #back h1{
-	margin: 5rem;
+	margin: 4rem;
 	margin-top: 30rem;
 	transition: 2s;
 }
@@ -139,7 +139,7 @@ html{
 	padding-top: 1.5rem;
 	text-align: center;
 	position: absolute;
-	top: 45rem;
+	top: 37rem;
 	left: 92rem;
 	background: rgba(0, 0, 0, .7);
 	width: 30rem;
@@ -154,26 +154,53 @@ html{
 	position: absolute;
 	display: none;
 }
+#qutu5{
+	text-align: center;
+	margin: 0 15%;
+	margin-top: 2rem;
+	padding: 2rem 4rem;
+	background: rgba(0, 0, 0, .8);
+}
+#qutu5 span{
+	display: inline-block;
+	color: white;
+	font-size: 3rem;
+	padding: 1rem;
+}
+#qutu5 #time{
+	color: red;
+	font-size: 5rem;
+}
+
 
 
 @media(max-width: 1200px){
 	#qutu4{
-	    top: 45rem;
+	    top: 30rem;
 	    left: 70%;
     }
 }
 
 @media(max-width: 1000px){
 	#qutu4{
-	    top: 45rem;
-	    left: 60%;
+	    top: 28rem;
+	    left: 65%;
     }
 }
 
 @media(max-width: 750px){
 	#qutu4{	    
-		top: 45rem;
+		top: 25rem;
 	    left: 40%;
+    }
+    #qutu2{
+    	margin-top: 10rem;
+    }
+    #qutu5 span{
+	    font-size: 1.5rem;
+    }
+    #qutu5 #time{
+	    font-size: 2rem;
     }
 }
 
@@ -202,8 +229,8 @@ html{
     }
     #qutu2 ul li ul {
 	    margin: 1rem;
-	    display: none;
 	    padding: .2rem .6rem;
+	    display: none;
     }
     #qutu3{
     	min-height: 45vh;
@@ -215,7 +242,7 @@ html{
 	    padding: 1.5rem 3rem;
     }
     #qutu4{
-	    top: 26.5rem;
+	    top: 22rem;
 	    left: 4rem;
 	    width: 80%;
     }
@@ -235,17 +262,27 @@ html{
 	    font-size: 1.5rem;
     }
     #qutu2 ul li ul {
-	    margin: .5rem;
-	    display: none;
+	    margin: 1rem;
 	    padding: .2rem .6rem;
+	    display: none;
+    }
+    #qutu4{
+    	top: 20rem;
+    }
+    #qutu5{
+    	margin: 0 10%;
+    	padding: .2rem .5rem;
     }
 }
 @media (max-width: 350px){
     #qutu2 ul{
-	 margin-left: .5rem;
-   }
+	    margin-left: .5rem;
+    }
     #qutu2 ul li ul{
 	    margin: .2rem .5rem;
 	    padding: .2rem .6rem;
+    }
+    #qutu4{
+    	top: 17rem;
     }
 }
