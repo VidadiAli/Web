@@ -46,6 +46,7 @@ body{
 	font-size: 1.2rem;
 	padding: 0.5rem 4rem;
 	background: linear-gradient(to right, deepskyblue, lightskyblue);
+	font-weight: 900;
 }
 
 @media (max-width: 800px){
