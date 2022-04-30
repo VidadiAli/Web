@@ -22,10 +22,21 @@ h1 span{
 	font-size: 2rem;
 	color: blue;
 }
+#divv1 ul li{
+	background: linear-gradient(to right, rgb(26, 30, 92), rgb(50, 120, 190));
+	list-style: none;
+	float: left;
+	margin: 2rem;
+	padding: .5rem 2rem;
+	font-size: 2rem;
+	font-weight: 900;
+}
 #divv1 ul li a{
+	color: white;
 	text-decoration: none;
 }
 #divv1 ul li ul{
+	position: absolute;
 	display: none;
 }
 #divv1 ul li:hover ul{
