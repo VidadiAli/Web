@@ -40,7 +40,7 @@
 </div>
 
 <div id="qutu5">
-   <span id="text1">Sərbəst işlərə </span><span id="time"></span><span id="text2"> gün qaldı</span>
+   <span id="text1">Sərbəst işlərə </span><span id="time"></span><span id="text2"> qaldı</span>
 </div>
 
 <div id="back">
@@ -472,10 +472,20 @@
 
        var time1=new Date();
        if(time1.getDate()>15){
-          time.textContent=30-time1.getDate()+15 + " " + "gün" + " : " + (32-time1.getHours()) + " " + "saat";
+          if(time1.getHours()>9){
+              time.textContent=30-time1.getDate()+15 + " " + "gün" + " : " + (32-time1.getHours()) + " " + "saat";
+          }
+          else{
+             time.textContent=30-time1.getDate()+15 + " " + "gün" + " : " + (9-time1.getHours()) + " " + "saat";
+          }
        }
        else if(time1.getDate()<15){
-          time.textContent=15-time1.getDate() + " " + "gün" + " : " + (32-time1.getHours()) + " " + "saat";
+          if(time1.getHours()>9){
+              time.textContent=30-time1.getDate()+15 + " " + "gün" + " : " + (32-time1.getHours()) + " " + "saat";
+          }
+          else{
+             time.textContent=30-time1.getDate()+15 + " " + "gün" + " : " + (9-time1.getHours()) + " " + "saat";
+          }
        }
        else{
           text1.style.display="none";
