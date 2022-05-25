@@ -470,24 +470,8 @@
     window.onload=function () {
        h_1.style.marginTop="8rem";
 
-       var time1=new Date();
-       if(time1.getDate()>15){
-          if(time1.getHours()>9){
-              time.textContent=30-time1.getDate()+14 + " " + "gün" + " : " + (32-time1.getHours()) + " " + "saat";
-          }
-          else{
-             time.textContent=30-time1.getDate()+14 + " " + "gün" + " : " + (9-time1.getHours()) + " " + "saat";
-          }
-       }
-       else if(time1.getDate()<15){
-          if(time1.getHours()>9){
-              time.textContent=14-time1.getDate() + " " + "gün" + " : " + (32-time1.getHours()) + " " + "saat";
-          }
-          else{
-             time.textContent=14-time1.getDate() + " " + "gün" + " : " + (9-time1.getHours()) + " " + "saat";
-          }
-       }
-       else{
+       
+       if(5>3){
           text1.style.display="none";
           text2.style.display="none";
           time.textContent="Bu gün sərbəst işlər qiymətləndiriləcək..."
