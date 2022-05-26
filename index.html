@@ -487,16 +487,31 @@
            
            var list1=[ferrux, redile, rehime, aytac, ayten, famil, zehra, nicat, elnur, elmar, kemaleddin, ilkane];
            var list2=["Fərrux", "Rədilə", "Rəhimə", "Aytac", "Aytən", "Famil", "Zəhra", "Nicat", "Elnur", "Elmar", "Kəmaleddin", "İlkanə"];
-           var boyuk=12, indexx=0;
+           var list3=[12];
+           var boyuk=0, indexx=0, n=12, c=0, evez1, evez2;
            for(var i = 0; i<12; i++){
-            if(list1[i]>boyuk)
-            {
-               boyuk=list1[i];
-               indexx=i;
+            for(var j = 0; j<n; j++){
+              if(list1[j]>=boyuk)
+                {
+                  boyuk=list1[j];
+                  indexx=j;
+                }
             }
-           }
+
+               list3[c] = list2[indexx] + " " + boyuk;
+               evez2=list2[n-1];
+               list2[n-1]=list2[indexx];
+               list2[indexx]=evez2;
+
+               evez1=list1[n-1];
+               list1[n-1]=list1[indexx];
+               list1[indexx]=evez1;
+               n--;
+               c++;
+               boyuk=0;
+         }
     
-        time.textContent=list2[indexx] + " " + boyuk + " " + "ilə birincidir";
+        time.textContent=list3;
 }
 
 
