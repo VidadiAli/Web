@@ -467,16 +467,37 @@
     i2.onclick=function() {
         back.style.zIndex=-2;
     }
-    window.onload=function () {
+   window.onload=function () {
        h_1.style.marginTop="8rem";
 
-       
-       if(5>3){
-          text1.style.display="none";
-          text2.style.display="none";
-          time.textContent="Bu gün sərbəst işlər qiymətləndiriləcək..."
-       }
-    }
+       var ferrux = Number(final_veb_fr.textContent) + Number(final_sql_fr.textContent) + Number(final_met_fr.textContent)+Number(final_riy_fr.textContent);
+       var redile = Number(final_veb_red.textContent) + Number(final_sql_red.textContent) + Number(final_met_red.textContent)+Number(final_riy_red.textContent);
+       var ayten = Number(final_veb_ayten.textContent) + Number(final_sql_ayten.textContent) + Number(final_met_ayten.textContent)+Number(final_riy_ayten.textContent);
+       var aytac = Number(final_veb_ay.textContent) + Number(final_sql_ay.textContent) + Number(final_met_ay.textContent)+Number(final_riy_ay.textContent);
+       var famil = Number(final_veb_fa.textContent) + Number(final_sql_fa.textContent) + Number(final_met_fa.textContent)+Number(final_riy_fa.textContent);
+       var elnur = Number(final_veb_el.textContent) + Number(final_sql_el.textContent) + Number(final_met_el.textContent)+Number(final_riy_el.textContent);
+       var elmar = Number(final_veb_elm.textContent) + Number(final_sql_elm.textContent) + Number(final_met_elm.textContent)+Number(final_riy_elm.textContent);
+       var rehime = Number(final_veb_reh.textContent) + Number(final_sql_reh.textContent) + Number(final_met_reh.textContent) + Number(final_riy_reh.textContent);
+       var ilkane = Number(final_veb_il.textContent) + Number(final_sql_il.textContent) + Number(final_met_il.textContent)+Number(final_riy_il.textContent);
+       var zehra = Number(final_veb_ze.textContent) + Number(final_sql_ze.textContent) + Number(final_met_ze.textContent)+Number(final_riy_ze.textContent);
+       var nicat = Number(final_veb_ni.textContent) + Number(final_sql_ni.textContent) + Number(final_met_ni.textContent)+Number(final_riy_ni.textContent);
+       var kemaleddin = Number(final_veb_ke.textContent) + Number(final_sql_ke.textContent) + Number(final_met_ke.textContent)+Number(final_riy_ke.textContent);
+
+           
+           
+           var list1=[ferrux, redile, rehime, aytac, ayten, famil, zehra, nicat, elnur, elmar, kemaleddin, ilkane];
+           var list2=["Fərrux", "Rədilə", "Rəhimə", "Aytac", "Aytən", "Famil", "Zəhra", "Nicat", "Elnur", "Elmar", "Kəmaleddin", "İlkanə"];
+           var boyuk=12, indexx=0;
+           for(var i = 0; i<12; i++){
+            if(list1[i]>boyuk)
+            {
+               boyuk=list1[i];
+               indexx=i;
+            }
+           }
+    
+        time.textContent=list2[indexx] + " " + boyuk + " " + "ilə birincidir";
+}
 
 
     send.onclick=function() {
