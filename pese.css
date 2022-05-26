@@ -249,6 +249,9 @@ html{
 	    left: 4rem;
 	    width: 80%;
     }
+    #qutu5 #winner{
+	    font-size: 3.2rem;
+    }
 }
 @media (max-width: 440px){
 	#qutu2 ul{
