@@ -171,7 +171,10 @@ html{
 	color: white;
 	font-size: 3.1rem;
 }
-
+#qutu5 #winner{
+	color: orangered;
+	font-size: 4rem;
+}
 
 
 @media(max-width: 1200px){
