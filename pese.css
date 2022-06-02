@@ -141,7 +141,7 @@ html{
 	position: absolute;
 	top: 37rem;
 	left: 92rem;
-	background: rgba(0, 0, 0, .7);
+	background: repeating-linear-gradient(to right, rgba(1, 1, 253, .8), rgba(126, 130, 130, .8));
 	width: 30rem;
 	height: 10rem;
 	color: white;
