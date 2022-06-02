@@ -265,6 +265,18 @@ html{
     #qutu5 #winner{
 	    font-size: 1.7rem;
     }
+    #qutu5 .spanlar2{
+    	border-radius: 13px;
+    	line-height: 1px;
+    }
+}
+@media (max-width: 457px){
+	#qutu5 .ilk_span{
+     	width: 40%;
+    }
+    #qutu5 .spanlar{
+	    width: 60%;
+    }
 }
 @media (max-width: 440px){
 	#qutu2 ul{
@@ -299,5 +311,11 @@ html{
     }
     #qutu4{
     	top: 17rem;
+    }
+    #qutu5 span{
+    	font-size: 1.1rem;
+    }
+    #qutu5 #winner{
+    	font-size: 1.3rem;
     }
 }
