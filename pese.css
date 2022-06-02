@@ -155,8 +155,8 @@ html{
 	display: none;
 }
 #qutu5{
-	text-align: center;
-	margin: 0 15%;
+	text-align: left;
+	margin: 0 5px;
 	margin-top: 2rem;
 	padding: 2rem 4rem;
 	background: rgba(0, 0, 0, .8);
@@ -167,14 +167,23 @@ html{
 	font-size: 3rem;
 	padding: 1rem;
 }
-#qutu5 #time{
-	color: white;
-	font-size: 3.1rem;
-}
+
 #qutu5 #winner{
 	color: orangered;
 	font-size: 4rem;
 }
+#qutu5 .ilk_span{
+	width: 35%;
+}
+#qutu5 .spanlar{
+	width: 65%;
+}
+#qutu5 .spanlar2{
+	margin: 1px;
+	border-radius: 5px;
+	background: linear-gradient(to right, red, orangered, yellow, yellowgreen, green);
+}
+
 
 
 @media(max-width: 1200px){
@@ -202,9 +211,10 @@ html{
     #qutu5 span{
 	    font-size: 1.5rem;
     }
-    #qutu5 #time{
-	    font-size: 2rem;
+    #qutu5{
+    	padding: 2px;
     }
+    
 }
 
 
@@ -249,8 +259,11 @@ html{
 	    left: 4rem;
 	    width: 80%;
     }
+    #qutu5{
+    	padding: 1px;
+    }
     #qutu5 #winner{
-	    font-size: 3.2rem;
+	    font-size: 1.7rem;
     }
 }
 @media (max-width: 440px){
@@ -274,10 +287,6 @@ html{
     }
     #qutu4{
     	top: 20rem;
-    }
-    #qutu5{
-    	margin: 0 10%;
-    	padding: .2rem .5rem;
     }
 }
 @media (max-width: 350px){
