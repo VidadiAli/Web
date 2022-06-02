@@ -159,7 +159,8 @@ html{
 	margin: 0 5px;
 	margin-top: 2rem;
 	padding: 2rem 4rem;
-	background: rgba(0, 0, 0, .8);
+	background: repeating-linear-gradient(to right, rgba(1, 1, 253, .8), rgba(126, 130, 130, .8));
+	border-top-left-radius: 20px;
 }
 #qutu5 span{
 	display: inline-block;
@@ -174,6 +175,7 @@ html{
 }
 #qutu5 .ilk_span{
 	width: 35%;
+	border-bottom: 1px solid wheat;
 }
 #qutu5 .spanlar{
 	width: 65%;
