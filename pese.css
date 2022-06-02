@@ -179,9 +179,12 @@ html{
 	width: 65%;
 }
 #qutu5 .spanlar2{
-	margin: 1px;
 	border-radius: 5px;
-	background: linear-gradient(to right, red, orangered, yellow, yellowgreen, green);
+	background: linear-gradient(to right, lightgreen, green);
+	font-size: 1rem;
+	padding: 2px;
+	text-align: right;
+	padding-right: 15px;
 }
 
 
@@ -265,10 +268,6 @@ html{
     #qutu5 #winner{
 	    font-size: 1.7rem;
     }
-    #qutu5 .spanlar2{
-    	border-radius: 13px;
-    	line-height: 1px;
-    }
 }
 @media (max-width: 457px){
 	#qutu5 .ilk_span{
@@ -276,6 +275,10 @@ html{
     }
     #qutu5 .spanlar{
 	    width: 60%;
+    }
+    #qutu5 .spanlar2{
+    	line-height: 9px;
+	    font-size: .8rem;
     }
 }
 @media (max-width: 440px){
