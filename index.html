@@ -36,12 +36,22 @@
 </div>
 
 <div id="qutu4">
-    <h1 >Aralıq İmtahan 3: <br><span>25 May</span></h1>
+    <h1 >İmtahalar başlayır: <br><span>1 İyul</span></h1>
 </div>
 
 <div id="qutu5">
-   <span id="winner">0</span>
-   <span id="time"></span>
+   <span id="winner" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s1"></span></span><br>
+   <span id="second" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s2"></span></span><br>
+   <span id="third" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s3"></span></span><br>
+   <span id="other4" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s4"></span></span><br>
+   <span id="other5" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s5"></span></span><br>
+   <span id="other6" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s6"></span></span><br>
+   <span id="other7" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s7"></span></span><br>
+   <span id="other8" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s8"></span></span><br>
+   <span id="other9" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s9"></span></span><br>
+   <span id="other10" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s10"></span></span><br>
+   <span id="other11" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s11"></span></span><br>
+   <span id="other12" class="ilk_span"></span><span class="spanlar"><span class="spanlar2" id="s12"></span></span><br>
 </div>
 
 <div id="back">
@@ -489,6 +499,7 @@
            var list1=[ferrux, redile, rehime, aytac, ayten, famil, zehra, nicat, elnur, elmar, kemaleddin, ilkane];
            var list2=["Fərrux", "Rədilə", "Rəhimə", "Aytac", "Aytən", "Famil", "Zəhra", "Nicat", "Elnur", "Elmar", "Kəmaləddin", "İlkanə"];
            var list3=[12];
+           var list4=[12];
            var boyuk=0, indexx=0, n=12, c=0, evez1, evez2;
            for(var i = 0; i<12; i++){
             for(var j = 0; j<n; j++){
@@ -500,6 +511,7 @@
             }
 
                list3[c] = "   " + (c+1) + ". " + list2[indexx] + " - " + boyuk;
+               list4[c] = (list1[indexx]*100)/200;
                evez2=list2[n-1];
                list2[n-1]=list2[indexx];
                list2[indexx]=evez2;
@@ -511,9 +523,32 @@
                c++;
                boyuk=0;
          }
-    
+        
         winner.textContent=list3[0];
-        time.textContent=list3[1] + " // " + list3[2] + " // " + list3[3] + " // " + list3[4] + " // " + list3[5] + " // " + list3[6] + " // " + list3[7] + " // " + list3[8] + " // " + list3[9] + " // " + list3[10] + " // " + list3[11];
+        second.textContent=list3[1];
+        third.textContent=list3[2];
+        other4.textContent=list3[3];
+        other5.textContent=list3[4];
+        other6.textContent=list3[5];
+        other7.textContent=list3[6];
+        other8.textContent=list3[7];
+        other9.textContent=list3[8];
+        other10.textContent=list3[9];
+        other11.textContent=list3[10];
+        other12.textContent=list3[11];
+
+        s1.style.width=list4[0]+"%";
+        s2.style.width=list4[1]+"%";
+        s3.style.width=list4[2]+"%";
+        s4.style.width=list4[3]+"%";
+        s5.style.width=list4[4]+"%";
+        s6.style.width=list4[5]+"%";
+        s7.style.width=list4[6]+"%";
+        s8.style.width=list4[7]+"%";
+        s9.style.width=list4[8]+"%";
+        s10.style.width=list4[9]+"%";
+        s11.style.width=list4[10]+"%";
+        s12.style.width=list4[11]+"%";
 }
 
 
