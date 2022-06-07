@@ -58,11 +58,11 @@ section{
 	left: 2rem;
 	display: none;
 }
-section video, img{
-	float: left;
-	margin: 1rem;
-	width: 20rem;
-	border: 1px solid black;
+section .card{
+	width: 50%;
+}
+section .card1{
+	width: 100%;
 }
 section a{
 	color: black;
