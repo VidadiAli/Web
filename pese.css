@@ -202,6 +202,12 @@ html{
 	font-size: 2rem;
 	margin: 5px 10px;
 }
+.a:hover{
+	background: darkgray;
+	transition: 1.5s;
+}
+
+
 
 @media(max-width: 1200px){
 	#qutu4{
